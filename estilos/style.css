@@ -19,10 +19,6 @@
 
 
 
-
-
-
-
 /*FORMULARIO*/
 
 
@@ -457,6 +453,11 @@ p {
     padding: 10px;
 }
 
+.botonIndexGuia:hover {
+
+    background-color: black;
+    color: white;
+}
 
 #intento {
 
