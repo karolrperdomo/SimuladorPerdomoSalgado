@@ -122,6 +122,7 @@
 
     text-align: center;
 
+
 }
 
 
@@ -192,7 +193,7 @@
 
 }
 
-.introArtesanias{
+.introArtesanias {
 
     height: 250px;
 
@@ -207,7 +208,7 @@
     background-color: #000;
     opacity: 70%;
     color: #fff;
-    margin-top: 30px;   
+    margin-top: 30px;
 }
 
 
@@ -469,14 +470,196 @@ p {
 }
 
 
-/* MANTENIMIENTO */
 
-.mantenimiento {
-    width: auto;
-    height: auto;
+/*GUIA UTIL*/
+
+
+.GuiaBusqueda {
+
     display: flex;
     justify-content: center;
+    align-items: center;
+
+
 }
+
+.buscadorGuia {
+
+
+
+    width: 500px;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+.GuiaBuscar {
+
+    background-color: #14708A;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+.GuiaBuscar:hover {
+
+    background-color: #000;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+.carruselGuia {
+
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.307);
+
+}
+
+.tituloGuia {
+
+    text-align: center;
+
+}
+
+
+
+.aplicaciones{
+
+background-image: url(../imagenes/guia/fondoAplicacion.jpeg);
+
+}
+
+.aplicaciones h2 {
+
+    text-align: center;
+    color: #fff;
+    
+}
+
+.aplicacionesBogota {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 10px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.aplicacion {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.422);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
+    animation: moverAplicacion 3s ease-in-out infinite alternate; 
+}
+
+
+.aplicacion:hover {
+
+    border: 2px solid #cd0505;
+    border-radius: 30px;
+    align-items: center;
+    color: #15c66e;
+    background-color: rgba(0, 0, 0, 0.422);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
+    cursor: pointer;
+
+
+
+
+}
+
+@keyframes moverAplicacion {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(20px); 
+    }
+}
+
+.aplicaciondescripcion h2 {
+
+    text-align: center;
+}
+
+
+.aplicacionImagen img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+
+}
+
+
+.tiposDeTransporte {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.transportePublico h2{
+
+    text-align: center;
+
+}
+
+.transporteuno, .transportedos, .transportetres {
+
+    padding: 30px;
+    height: 500px;
+    text-align: center;
+}
+
+.transporteuno img {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.transportedos img {
+
+    width: 400px;
+    height: 200px;
+
+}
+
+.transportetres img {
+
+    width: 300px;
+    height: 200px;
+
+}
+
+.transporteuno a, .transportedos a, .transportetres a{
+
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -606,28 +789,28 @@ p {
     }
 
 
-  .introArtesanias p {
+    .introArtesanias p {
 
-    float: right;
-    text-align: right;
-    margin-right: 0px;
-    width: 100%;
-    background-color: #000;
-    padding: 10px;
-    opacity: 70%;
-    color: #fff;
-    margin-top: 0px;  
-}
+        float: right;
+        text-align: right;
+        margin-right: 0px;
+        width: 100%;
+        background-color: #000;
+        padding: 10px;
+        opacity: 70%;
+        color: #fff;
+        margin-top: 0px;
+    }
 
-.buscadorArtesanias {
+    .buscadorArtesanias {
 
-    margin-left: 50%;
-    width: 30%;
-    border: 1px solid #000;
-    padding: 0.5%;
-    border-radius: 5px;
+        margin-left: 50%;
+        width: 30%;
+        border: 1px solid #000;
+        padding: 0.5%;
+        border-radius: 5px;
 
-}
+    }
 
 
 
@@ -662,6 +845,157 @@ p {
 
     }
 
+
+/*GUIA UTIL*/
+
+
+.tituloGuia {
+
+    font-size: 20px;
+    text-align:left
+}
+
+
+
+.GuiaBusqueda {
+
+    display: none;
+}
+
+
+
+.carruselGuia {
+
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.307);
+    margin-top: -50px;
+
+}
+
+.aplicaciones{
+
+background-image: url(../imagenes/guia/fondoAplicacion.jpeg);
+
+}
+
+.aplicaciones h2 {
+
+    text-align: center;
+    color: #fff;
+    
+}
+
+.aplicacionesBogota {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 10px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.aplicacion {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.422);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
+    animation: moverAplicacion 3s ease-in-out infinite alternate; 
+}
+
+
+.aplicacion:hover {
+
+    border: 2px solid #0505cd;
+    border-radius: 30px;
+    align-items: center;
+    color: #ee8649;
+    background-color: rgba(0, 0, 0, 0.422);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
+
+
+}
+
+@keyframes moverAplicacion {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(20px); 
+    }
+}
+
+.aplicaciondescripcion h2 {
+
+    text-align: center;
+}
+
+
+.aplicacionImagen img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+
+}
+
+
+.tiposDeTransporte {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.transportePublico h2{
+
+    text-align: center;
+
+}
+
+.transporteuno, .transportedos, .transportetres {
+
+    padding: 30px;
+    height: 400px;
+    text-align: center;
+    border: 3px dashed  #12455C;
+    border-radius: 10px;
+}
+
+.transporteuno img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.transportedos img {
+
+    width: 200px;
+    height: 100px;
+
+}
+
+.transportetres img {
+
+    width: 150px;
+    height: 100px;
+
+}
+
+.transporteuno a, .transportedos a, .transportetres a{
+
+    text-decoration: none;
+}
 
 
 
