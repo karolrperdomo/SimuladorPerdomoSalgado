@@ -1,3 +1,5 @@
+/*NAV*/
+
 /*Se llama la clase logo, se asigna color, lo centra, y se aplica ancho*/
 .logo {
 
@@ -14,6 +16,448 @@
 .imagenBogota {
     width: 90px;
     height: 60px;
+
+}
+
+
+.navbar {
+
+    padding: 0%;
+
+}
+
+
+.nav-item {
+
+    padding-right: 30px;
+}
+
+.nav-link {
+
+    color: #fff;
+}
+
+
+.container-fluid {
+
+    background-color: #14708A;
+    opacity: 85%;
+
+}
+
+
+/*INDEX*/
+
+
+.contenedor_Titulo_Index {
+
+    height: 350px;
+    width: 100%;
+    padding: 0%;
+    margin-top: -22px;
+    background-image: url("../imagenes/index/fondoPantalla.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.acontecimientosImp {
+
+    background-image: url("../imagenes/index/acontecimientosFondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.tituloIndex {
+
+    text-align: center;
+
+}
+
+.contenderoPrincipal {
+    height: 550px;
+    display: flex;
+    padding: 0%;
+    margin-top: 0%;
+
+}
+
+.contenedorIndex {
+
+    width: 50%;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+.masInfo {
+
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+
+.artesaniaIndex {
+
+    display: flex;
+    margin-top: 20px;
+    background-image: url("../imagenes/artesanias/fondoArtesanias.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.arteDescripcion {
+
+    width: 50%;
+
+}
+
+.arteDescripcion h2,
+p {
+
+    margin-left: 30px;
+
+}
+
+.conoceMas {
+
+    margin-left: 30px;
+}
+
+
+
+.galeriaindex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 10%;
+}
+
+.galeriaindex img {
+
+    height: 300px
+}
+
+
+.guiaUtilIndex {
+
+    height: 600px;
+    background-image: url("../imagenes/guia/fondoGuia.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tituloUtilIndex {
+
+    color: #14708A;
+    text-align: center;
+}
+
+.subtituloUtilIndex {
+
+    color: black;
+    text-align: center;
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.columna_dos {
+
+    margin-left: -70px;
+    margin-right: 50px;
+
+}
+
+.columna_tres {
+
+    margin-left: -10px;
+    margin-right: 30px;
+
+}
+
+.columnas img {
+
+    height: 350px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.botonIndexGuia {
+
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ff9800;
+
+}
+
+
+.botonIndexGuia:hover {
+
+    background: #e68a00;
+    color: white;
+
+}
+
+
+#intento {
+
+    border: 1px, solid, none;
+    background-color: #000;
+    opacity: 70%;
+}
+
+
+.d-block {
+
+    height: 500px;
+
+}
+
+
+
+
+
+
+
+/*Artesanias*/
+
+
+.bannerArtesanias {
+
+    background-image: url(../imagenes/artesanias/bannerArtesanias.jpeg);
+    height: 350px;
+    width: 100%;
+    padding: 0%;
+    margin-top: -22px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+
+.artesaniastituloPrincipal {
+
+    display: flex;
+
+}
+
+.bannerArtesanias p {
+
+    width: 30%;
+    color: #fff;
+    margin-left: 40px;
+    background-color: #0000006f;
+    margin-top: 10px;
+
+
+}
+
+
+.tituloArtesanias {
+
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-right: 350px;
+    padding-left: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    background: linear-gradient(90deg, rgba(50, 50, 50, 0.843), rgba(232, 124, 8, 0.258));
+    color: #fff;
+
+}
+
+
+
+.bannerArtesanias img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.buscadorArtesanias {
+
+    margin-left: 8%;
+    width: 30%;
+    border: 1px solid #000;
+    padding: 0.5%;
+    border-radius: 5px;
+
+}
+
+.artesaniasBuscar {
+
+    border: none;
+    color: black;
+    padding: 0.5%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ff9800;
+
+
+}
+
+.artesaniasBuscar:hover {
+
+    background: #e68a00;
+    color: white;
+
+}
+
+
+.artesaniasDer {
+
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.artesaniasInformacion {
+
+    background-image: url(../imagenes/artesanias/fondoArtesanias.png);
+
+
+}
+
+
+
+
+.cajaDer {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    padding: 1%;
+    margin-bottom: 40px;
+}
+
+
+
+.cajaDer img {
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+
+.cajaDer p {
+
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+
+
+.cajaDer button {
+
+    border: none;
+    color: black;
+    padding: 0.5%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ff9800;
+
+
+}
+
+.cajaDer button:hover {
+
+    background: #e68a00;
+    color: white;
+
+}
+
+
+.artesaniasCuenta,
+.artesaniasFavoritos {
+
+    border: none;
+    color: black;
+    padding: 0.5%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+
+
+}
+
+
+
+.artesaniasMercado {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+
+.Cuenta {
+
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+
+.Cuenta a {
+
+    margin: 10px;
+    padding: 20px;
+    margin-top: -90px;
+    text-decoration: none;
+    color: #e68a00;
+
+
+}
+
+.Cuenta a:hover {
+
+    color: #000;
 
 }
 
@@ -132,7 +576,11 @@
 
 
 
-/*Gastronomia*/
+/* ------------------------- Gastronomia ------------------------------*/
+
+
+
+
 
 .tituloBanner {
 
@@ -166,10 +614,6 @@
 }
 
 
-
-
-
-
 .tituloGastronomia {
 
     margin-left: 40px;
@@ -179,7 +623,7 @@
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
     background: linear-gradient(90deg, rgba(50, 50, 50, 0.843), rgba(232, 124, 8, 0.815));
-    color:#fff;
+    color: #fff;
 
 }
 
@@ -190,6 +634,8 @@
     height: 40px;
 
 }
+
+
 
 .alterno {
 
@@ -205,7 +651,7 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     width: 250px;
-    height: 250px;
+    height: 300px;
     text-align: center;
     border: 1px solid #00000057;
     background-color: rgba(242, 242, 242, 0.779);
@@ -215,7 +661,7 @@
 }
 
 
-#gastronomiaBorde{
+#gastronomiaBorde {
 
     border: 1px solid #00000057;
     border-top-left-radius: 60px;
@@ -233,8 +679,8 @@
 
 .iconoInformativo img {
 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 
 
 }
@@ -249,21 +695,18 @@
     border-radius: 5px;
     text-align: center;
 
-
-
 }
+
 
 
 .buscarGastronomia {
 
     text-align: center;
     justify-content: center;
-    
 
 }
 
 .botonBuscar {
-
 
     width: 10%;
     border: none;
@@ -288,7 +731,7 @@
 .restauranteTarjeta {
 
     display: grid;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 200px;
     height: 250px;
     font-size: 10px;
@@ -303,17 +746,18 @@
 
 }
 
-.logoRestaurante img{
+.logoRestaurante img {
 
     width: 50px;
     height: 50px;
     margin-top: -25px;
 
 }
+
 .direccionRestaurante {
 
     display: flex;
-    
+
 }
 
 
@@ -332,377 +776,76 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Artesanias*/
-
-
-
-.bannerArtesanias {
-
-    background-image: url("../imagenes/guia/fondoGuia.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
-
-}
-
-.tituloArtesanias {
-
-    text-align: center;
-
-}
-
-.introArtesanias {
-
-    height: 250px;
-
-}
-
-.introArtesanias p {
-
-    float: right;
-    text-align: right;
-    margin-right: 100px;
-    width: 40%;
-    background-color: #000;
-    opacity: 70%;
-    color: #fff;
-    margin-top: 30px;
-}
-
-
-
-
-
-.buscadorArtesanias {
-
-    margin-left: 8%;
-    width: 30%;
-    border: 1px solid #000;
-    padding: 0.5%;
-    border-radius: 5px;
-
-}
-
-.artesaniasDer {
-
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-
-.cajaDer {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    padding: 1%;
-}
-
-.cajaDer img {
-
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-}
-
-.cajaDer p {
-
-    color: #000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-
-
-
-/*Index*/
-
-
-
-.navbar {
-
-    padding: 0%;
-
-}
-
-
-.nav-item {
-
-    padding-right: 30px;
-}
-
-.nav-link {
-
-    color: #fff;
-}
-
-
-.container-fluid {
-
-    background-color: #14708A;
-    opacity: 85%;
-
-}
-
-
-
-.contenedor_Titulo_Index {
-
-    height: 350px;
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
-    background-image: url("../imagenes/index/fondoPantalla.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-
-.acontecimientosImp {
-
-    background-image: url("../imagenes/index/acontecimientosFondo.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-
-.tituloIndex {
-
-    text-align: center;
-
-}
-
-.contenderoPrincipal {
-    height: 550px;
-    display: flex;
-    padding: 0%;
-    margin-top: 0%;
-
-}
-
-.contenedorIndex {
-
-    width: 50%;
-    height: 100%;
-    margin: auto;
-
-}
-
-
-.masInfo {
-
-    text-decoration: none;
-    color: #fff;
-
-
-}
-
-
-.artesaniaIndex {
-
-    display: flex;
-    margin-top: 20px;
-    background-image: url("../imagenes/artesanias/fondoArtesanias.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-
-.arteDescripcion {
-
-    width: 50%;
-
-}
-
-.arteDescripcion h2,
-p {
-
-    margin-left: 30px;
-
-}
-
-.conoceMas {
-
-    margin-left: 30px;
-}
-
-
-
-.galeriaindex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    ;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin-left: 10%;
-}
-
-.galeriaindex img {
-
-    height: 300px
-}
-
-
-
-
-.guiaUtilIndex {
-
-    height: 600px;
-    background-image: url("../imagenes/guia/fondoGuia.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.tituloUtilIndex {
-
-    color: #14708A;
-    text-align: center;
-}
-
-.subtituloUtilIndex {
-
-    color: black;
-    text-align: center;
-}
-
-.columnas {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-
-
-.columnas img {
-
-    height: 350px;
-    width: 300px;
-    display: block;
-    margin: auto;
-}
-
-.botonIndexGuia {
-
-    border-radius: 5px;
-    background-color: #FEF5B3;
-    padding: 10px;
-}
-
-.botonIndexGuia:hover {
-
-    background-color: black;
-    color: white;
-}
-
-#intento {
-
-    border: 1px, solid, none;
-    background-color: #000;
-    opacity: 70%;
-}
-
-
-.d-block {
-
-    height: 500px;
-
-}
-
-
-
 /*GUIA UTIL*/
 
 
-.GuiaBusqueda {
+
+
+
+.bannerGuia {
+
+    background-image: url(../imagenes/guia/fondoBannerGuia.jpeg);
+    height: 350px;
+    width: 100%;
+    padding: 0%;
+    margin-top: -22px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+.guiatituloPrincipal {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-
 
 }
 
-.buscadorGuia {
+.bannerGuia p {
 
-
-
-    width: 500px;
-    border: 1px solid #000;
-    padding: 5px;
-    border-radius: 5px;
-
-}
-
-
-.GuiaBuscar {
-
-    background-color: #14708A;
+    width: 30%;
     color: #fff;
-    padding: 5px;
-    border-radius: 5px;
+    margin-left: 40px;
+    background-color: #00000098;
+    margin-top: 10px;
 
 }
 
 
-.GuiaBuscar:hover {
+.tituloGuia {
 
-    background-color: #000;
-    color: red;
-    padding: 5px;
-    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-right: 350px;
+    padding-left: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    background: linear-gradient(90deg, rgba(246, 0, 0, 0.843), rgba(232, 225, 8, 0.456));
+    color: #fff;
 
 }
+
+
+.bannerGuia img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
 
 
 .carruselGuia {
 
-    width: 80%;
+    width: 75%;
     justify-content: center;
     margin: auto;
     border: 1px solid rgba(0, 0, 0, 0.307);
 
 }
+
 
 .tituloGuia {
 
@@ -756,7 +899,7 @@ p {
     border: 2px solid #cd0505;
     border-radius: 30px;
     align-items: center;
-    color: #15c66e;
+    color: #f7f142;
     background-color: rgba(0, 0, 0, 0.422);
     box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
     cursor: pointer;
@@ -791,59 +934,18 @@ p {
 
 }
 
-
-.tiposDeTransporte {
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-}
-
-.transportePublico h2 {
+.transportePublicoTitulo, .card-title {
 
     text-align: center;
 
 }
 
-.transporteuno,
-.transportedos,
-.transportetres {
-
-    padding: 30px;
-    height: 500px;
-    text-align: center;
-}
-
-.transporteuno img {
-
-    width: 200px;
-    height: 200px;
-
-}
-
-.transportedos img {
-
-    width: 400px;
-    height: 200px;
-
-}
-
-.transportetres img {
-
-    width: 300px;
-    height: 200px;
-
-}
-
-.transporteuno a,
-.transportedos a,
-.transportetres a {
+.tiposTransPublico  a{
 
     text-decoration: none;
+    color: #14708A;
+
 }
-
-
-
 
 
 
@@ -937,6 +1039,21 @@ p {
         padding: 10px;
 
     }
+
+    .columna_dos {
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .columna_tres {
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+
 
     .columna {
 
@@ -1041,12 +1158,6 @@ p {
         text-align: left
     }
 
-
-
-    .GuiaBusqueda {
-
-        display: none;
-    }
 
 
 

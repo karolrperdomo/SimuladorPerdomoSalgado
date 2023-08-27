@@ -60,39 +60,38 @@
   <main>
 
 
-    <div class="tituloGuia">
+    <div class="banner">
 
-      <h1>Movilidad en Bogotá</h1>
+      <div class="bannerGuia">
+        <div class="guiatituloPrincipal">
+          <div class="tituloGuia">
+            <h1> <img src="../imagenes/guia/carros.png" alt=""> Movilidad en Bogotá</h1>
+          </div>
+        </div>
+        <p>Explora la gastronomía de Bogotá, una fusión de tradición e innovación. Saborea platos únicos que reflejan la
+          riqueza cultural de la ciudad. Desde auténticos antojitos callejeros hasta experiencias culinarias de alta
+          cocina, deleita tu paladar con los sabores que solo Bogotá puede ofrecer.</p>
+      </div>
+
+      <br>
 
     </div>
 
-    <br>
-
-    <div class="GuiaBusqueda">
-
-      <form>
-        <input class="buscadorGuia" type="search" placeholder="Buscar">
-        <button class="GuiaBuscar" type="submit">Buscar</button>
-      </form>
-
-    </div>
-
-    <br><br>
 
     <div class="carruselGuia">
-      <div id="carouselExample" class="carousel slide">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../imagenes/guia/carruselFotomultas.png" class="d-block w-100" alt="carruselFotomultas">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="../imagenes/guia/carruselMovilidad.jpeg" class="d-block w-100" alt="carruselMovilidad">
           </div>
-          <div class="carousel-item">
-            <img src="../imagenes/guia/CarruselMujer.png" class="d-block w-100" alt="CarruselMujer">
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/guia/carruselBici.jpeg" class="d-block w-100" alt="CarruselMujer">
           </div>
-          <div class="carousel-item">
-            <img src="../imagenes/guia/carruselRendicion.png" class="d-block w-100" alt="carruselRendicion">
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/guia/carruselAcciones.jpeg" class="d-block w-100" alt="carruselAcciones">
           </div>
-          <div class="carousel-item">
-            <img src="../imagenes/guia/CarruselTaxis.png " class="d-block w-100" alt="CarruselTaxis">
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/guia/carruselTaxis.png " class="d-block w-100" alt="CarruselTaxis">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -105,6 +104,9 @@
         </button>
       </div>
     </div>
+
+
+
 
     <br><br>
 
@@ -171,72 +173,61 @@
       </div>
     </div>
 
-    <br><br>
+    <br>
 
     <div class="transportePublico">
 
-      <h2><strong>Transporte Publico</strong></h2><br><br>
+      <h2 class="transportePublicoTitulo"><strong>Transporte Publico</strong></h2><br><br>
 
       <p>Bogotá, la vibrante capital de Colombia, ofrece a sus residentes y visitantes una amplia gama de opciones
         de transporte público para facilitar sus desplazamientos por la ciudad. Con el objetivo de proporcionar
         soluciones de movilidad eficientes y prácticas, la ciudad cuenta con tres sistemas principales de
         transporte, cada uno gestionado por distintas agencias de transporte público.</p>
-
+      
+        <br>
       <div class="tiposTransPublico">
 
-        <div class="tiposDeTransporte">
-          <div>
-            <article class="transporteuno">
-              <p><strong>SITP (Sistema Integrado de Transporte Público):</strong><br>
-                Representa un pilar fundamental en la infraestructura de transporte de Bogotá. Este sistema
-                integra diferentes modalidades de transporte, como Buses Troncales, Buses Alimentadores, Buses Urbanos,
-                Buses Complementarios y Buses Especiales. Cada modalidad cumple un papel específico en la cadena de
-                movilidad, desde las rutas troncales que conectan puntos clave hasta los buses alimentadores que enlazan
-                las áreas residenciales con las rutas principales.
-                <a href="https://www.transmilenio.gov.co/loader.php?lServicio=Rutas&lTipo=busqueda" target="_blank">Aqui
-                  puedes
-                  encontrar las Rutas del SITP</a>
-              </p>
-              <img src="../imagenes/guia/sitp.png" alt="Sitp">
-            </article>
-          </div>
-          <div>
-            <article class="transportedos">
-              <p><strong>Transmilenio:</strong><br>
-                Se destaca como uno de los sistemas de autobuses rápidos más conocidos y utilizados en
-                Bogotá. Los Buses Troncales de Transmilenio operan en carriles exclusivos, lo que agiliza los
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Transmilenio:</strong></h5>
+              <p class="card-text">Se destaca como uno de los sistemas de autobuses rápidos más conocidos y utilizados
+                en Bogotá. Los Buses Troncales de Transmilenio operan en carriles exclusivos, lo que agiliza los
                 desplazamientos y reduce los tiempos de viaje. Este sistema es especialmente efectivo para atender la
-                alta
-                demanda de pasajeros en rutas clave de la ciudad, brindando una opción de transporte masivo eficiente y
-                confiable.
+                alta demanda de pasajeros en rutas clave de la ciudad, brindando una opción de transporte masivo eficiente y
+                confiable. <br>
                 <a href="https://www.transmilenio.gov.co/publicaciones/150402/publicacionesmapa-interactivo-de-transmilenio/"
                   target="_blank">Aqui puedes encontrar las Estaciones del Transmilenio</a>
               </p>
-              <img src="../imagenes/guia/transmilenio.png" alt="Transmilenio">
-            </article>
+            </div>
           </div>
-          <div>
-            <article class="transportetres">
-              <p><strong>Transmicable:</strong> <br>
-                El Transmicable, una opción única en la oferta de transporte de Bogotá, es un sistema de transporte
-                vertical
-                que se utiliza en áreas montañosas y empinadas de la ciudad. Ofreciendo una experiencia panorámica y
-                distintiva, el Funicular permite a los residentes y visitantes ascender y descender terrenos escarpados
-                con facilidad, brindando acceso a zonas que de otra manera podrían ser difíciles de alcanzar.<a
-                  href="https://www.transmilenio.gov.co/TransMiCable/"
-                  target="_blank">Aqui puedes encontrar toda la informacion del Transmicable</a>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><strong>SITP (Sistema Integrado de Transporte Público):</strong></h5>
+              <p class="card-text">Representa un pilar fundamental en la infraestructura de transporte de Bogotá. Este
+                sistema integra diferentes modalidades de transporte, como Buses Troncales, Buses Alimentadores, Buses Urbanos,
+                Buses Complementarios y Buses Especiales. Cada modalidad cumple un papel específico en la cadena de
+                movilidad, desde las rutas troncales que conectan puntos clave hasta los buses alimentadores que enlazan
+                las áreas residenciales con las rutas principales.<br>
+                <a href="https://www.transmilenio.gov.co/loader.php?lServicio=Rutas&lTipo=busqueda" target="_blank">Aqui
+                  puedes encontrar las Rutas del SITP</a>
               </p>
-              <img src="../imagenes/guia/transmicable.png" alt="Transmicable">
-            </article>
+            </div>
           </div>
-
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Transmicable:</strong></h5>
+              <p class="card-text">El Transmicable, una opción única en la oferta de transporte de Bogotá, es un sistema
+                de transporte vertical que se utiliza en áreas montañosas y empinadas de la ciudad. Ofreciendo una experiencia
+                panorámica y distintiva, el Funicular permite a los residentes y visitantes ascender y descender terrenos escarpados
+                con facilidad, brindando acceso a zonas que de otra manera podrían ser difíciles de alcanzar.
+                <br>
+                <a href="https://www.transmilenio.gov.co/TransMiCable/" target="_blank">Aqui puedes encontrar toda la
+                  informacion del Transmicable</a></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-
-
-
 
 
 
