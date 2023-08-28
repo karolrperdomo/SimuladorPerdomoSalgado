@@ -772,10 +772,6 @@ p {
 
 
 
-
-
-
-
 /*GUIA UTIL*/
 
 
@@ -934,13 +930,14 @@ p {
 
 }
 
-.transportePublicoTitulo, .card-title {
+.transportePublicoTitulo,
+.card-title {
 
     text-align: center;
 
 }
 
-.tiposTransPublico  a{
+.tiposTransPublico a {
 
     text-decoration: none;
     color: #14708A;
@@ -1083,39 +1080,68 @@ p {
         font-size: 30px;
     }
 
+
+
+
+
+
     /* Artesanias */
+
 
     .bannerArtesanias {
 
+        background-image: url(../imagenes/artesanias/bannerArtesanias.jpeg);
+        height: 250px;
         width: 100%;
-        height: 350px;
+        padding: 0%;
+        margin-top: -22px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+
     }
 
 
-    .introArtesanias p {
 
-        float: right;
-        text-align: right;
-        margin-right: 0px;
-        width: 100%;
-        background-color: #000;
-        padding: 10px;
-        opacity: 70%;
-        color: #fff;
-        margin-top: 0px;
+    .bannerArtesanias p {
+
+        display: none;
+
+
     }
+
+
+    .tituloArtesanias {
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .bannerArtesanias img {
+
+        display: none;
+
+    }
+
 
     .buscadorArtesanias {
 
-        margin-left: 50%;
-        width: 30%;
-        border: 1px solid #000;
-        padding: 0.5%;
-        border-radius: 5px;
+        display: none;
 
     }
 
+    .artesaniasBuscar {
 
+        display: none;
+
+    }
+
+    .artesaniasBuscar:hover {
+
+        display: none;
+    }
 
     .cajaIzq_c2,
     .cajaIzq_c1,
@@ -1126,7 +1152,6 @@ p {
         width: 100%;
 
     }
-
 
 
     .artesaniasDer {
@@ -1152,13 +1177,35 @@ p {
     /*GUIA UTIL*/
 
 
-    .tituloGuia {
-
-        font-size: 20px;
-        text-align: left
+    
+    .guiatituloPrincipal {
+    
+        display: flex;
+    
     }
-
-
+    
+    .bannerGuia p {
+ 
+        display: none;
+    
+    }
+    
+    
+    .tituloGuia {
+    
+        width: 100%;
+        margin-left: 0;
+        font-size: 10px;
+        text-align: left
+    
+    }
+    
+    
+    .bannerGuia img {
+    
+        display: none;
+    
+    }
 
 
     .carruselGuia {
@@ -1212,10 +1259,10 @@ p {
 
     .aplicacion:hover {
 
-        border: 2px solid #0505cd;
+        border: 2px solid #cd0505;
         border-radius: 30px;
         align-items: center;
-        color: #ee8649;
+        color: #f7f142;;
         background-color: rgba(0, 0, 0, 0.422);
         box-shadow: 10px 10px rgba(0, 0, 0, 0.501);
 
@@ -1298,6 +1345,195 @@ p {
 
         text-decoration: none;
     }
+
+
+
+/* Gastronomia */
+
+
+
+
+.tituloBanner {
+
+    background-image: url(../imagenes/gastronomia/bannerGastronomia.jpeg);
+    height: 250px;
+    width: 100%;
+    padding: 0%;
+    margin-top: -22px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+
+}
+
+
+.tituloBanner p {
+
+    display: none;
+
+}
+
+
+.tituloGastronomia {
+
+    width: 100%;
+    margin-left: 0;
+    font-size: 10px;
+    text-align: left
+
+}
+
+
+.tituloBanner img {
+
+    display: none;
+
+}
+
+
+
+.alterno {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin: auto;    
+    text-align: center;
+
+}
+
+
+.gastronomiaInformativo {
+
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    text-align: center;
+    border: 1px solid #00000057;
+    background-color: rgba(242, 242, 242, 0.779);
+    box-shadow: -3px -3px rgba(64, 64, 64, 0.237);
+
+}
+
+
+#gastronomiaBorde {
+
+        border: 1px solid #00000057;
+        border-top-left-radius: 60px;
+        background-color: rgba(242, 242, 242, 0.779);
+
+}
+
+#gastronomiaBordeUltimo {
+
+    border: 1px solid #00000057;
+    border-bottom-right-radius: 60px;
+    background-color: rgba(242, 242, 242, 0.779);
+
+}
+
+.iconoInformativo img {
+
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.buscadorGastronomia {
+
+    margin-left: 8%;
+    width: 40%;
+    border: 1px solid #000;
+    padding: 0.5%;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
+.buscarGastronomia {
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+.botonBuscar {
+
+    width: 10%;
+    border: none;
+    padding: 0.5%;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(50, 50, 50, 0.843), rgba(232, 124, 8, 0.815));
+    color: #fff;
+
+}
+
+.restaurantes {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 10%;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+
+.restauranteTarjeta {
+
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    width: 200px;
+    height: 250px;
+    font-size: 10px;
+    background-color: rgba(237, 232, 232, 0.669);
+    box-shadow: 10px 10px rgba(214, 214, 214, 0.885);
+    border-radius: 30px;
+
+
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.logoRestaurante img {
+
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+
+}
+
+.direccionRestaurante {
+
+    display: flex;
+
+}
+
+
+.direccionRestaurante img {
+
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
