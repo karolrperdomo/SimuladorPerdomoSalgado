@@ -1,65 +1,22 @@
-/*NAV*/
+// import
 
-/*Se llama la clase logo, se asigna color, lo centra, y se aplica ancho*/
-.logo {
-
-    display: flex;
-    /* Contenedor flexible que puede alinear y distribuir elementos dentro de él*/
-    background-color: #12455C;
-    align-items: center;
-    /* El align-items sirve para centrar verticalmente*/
-    justify-content: center;
-    /* El justify-content sirve para centrar Horizontalmente*/
-    height: 60px;
-}
-
-.imagenBogota {
-    width: 90px;
-    height: 60px;
-
-}
+@import "nav";
+@import "contenedor";
 
 
-.navbar {
-
-    padding: 0%;
-
-}
 
 
-.nav-item {
-
-    padding-right: 30px;
-}
-
-.nav-link {
-
-    color: #fff;
-}
 
 
-.container-fluid {
-
-    background-color: #14708A;
-    opacity: 85%;
-
-}
 
 
 /*INDEX*/
 
 
-.contenedor_Titulo_Index {
+.index {
 
-    height: 350px;
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
     background-image: url("../imagenes/index/fondoPantalla.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
+    
 }
 
 
@@ -247,16 +204,10 @@ p {
 /*Artesanias*/
 
 
-.bannerArtesanias {
+.artesanias {
 
     background-image: url(../imagenes/artesanias/bannerArtesanias.jpeg);
-    height: 350px;
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+
 
 }
 
@@ -582,15 +533,9 @@ p {
 
 
 
-.tituloBanner {
+.gastronomia {
 
     background-image: url(../imagenes/gastronomia/bannerGastronomia.jpeg);
-    height: 350px;
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: top;
 
 
@@ -778,17 +723,9 @@ p {
 
 
 
-.bannerGuia {
+.guia {
 
     background-image: url(../imagenes/guia/fondoBannerGuia.jpeg);
-    height: 350px;
-    width: 100%;
-    padding: 0%;
-    margin-top: -22px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
 
 }
 

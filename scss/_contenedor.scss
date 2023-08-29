@@ -1,0 +1,22 @@
+
+$ancho : 100%;
+$alto : 350px;
+$margen-Interior : 0%;
+$margen-Superior : -22px;
+$repetir-Imagen : no-repeat;
+$tamano-Fondo :cover;
+
+
+
+.banner {
+
+    height: $alto;
+    width: $ancho;
+    padding: $margen-Interior;
+    margin-top: $margen-Superior;
+    background-size: $tamano-Fondo;
+    background-repeat: $repetir-Imagen;
+    background-position: center;
+
+}
+

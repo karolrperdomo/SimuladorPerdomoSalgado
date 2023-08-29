@@ -1,0 +1,54 @@
+// Variables
+
+$background : #12455C;
+$background-secundario :#14708A;
+$color : #fff;
+
+
+
+/*NAV*/
+
+/*Se llama la clase logo, se asigna color, lo centra, y se aplica ancho*/
+.logo {
+
+    display: flex;
+    /* Contenedor flexible que puede alinear y distribuir elementos dentro de él*/
+    background-color: $background;
+    align-items: center;
+    /* El align-items sirve para centrar verticalmente*/
+    justify-content: center;
+    /* El justify-content sirve para centrar Horizontalmente*/
+    height: 60px;
+}
+
+.imagenBogota {
+    width: 90px;
+    height: 60px;
+
+}
+
+
+.navbar {
+
+    padding: 0%;
+
+}
+
+
+.nav-item {
+
+    padding-right: 30px;
+}
+
+.nav-link {
+
+    color: $color;
+}
+
+
+.container-fluid {
+
+    background-color: $background-secundario;
+    opacity: 85%;
+
+}
