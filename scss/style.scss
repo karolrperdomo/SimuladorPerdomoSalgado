@@ -753,40 +753,29 @@ h2 {
 
   /* Artesanias */
 
+ @media (max-width: 1292px) {
   .bannerArtesanias {
-    background-image: url(../imagenes/artesanias/bannerArtesanias.jpeg);
     height: 250px;
     width: 100%;
-    padding: 0%;
+    padding: 0;
     margin-top: -22px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
   }
 
-  .bannerArtesanias p {
-    display: none;
-  }
+    .bannerArtesanias p,
+    .bannerArtesanias img,
+    .buscadorArtesanias,
+    .artesaniasBuscar,
+    .artesaniasBuscar:hover {
+      display: none;
+    }
+  
 
   .tituloArtesanias {
     width: 100%;
     margin-left: 0;
-  }
-
-  .bannerArtesanias img {
-    display: none;
-  }
-
-  .buscadorArtesanias {
-    display: none;
-  }
-
-  .artesaniasBuscar {
-    display: none;
-  }
-
-  .artesaniasBuscar:hover {
-    display: none;
   }
 
   .cajaIzq_c2,
@@ -795,23 +784,26 @@ h2 {
     display: block;
     width: 100%;
   }
-
+  
   .artesaniasDer {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .cajaDer {
-    display: block;
-    width: 100%;
+    text-align: center;
   }
 
   .cajaDer img {
     width: 150px;
     height: 200px;
   }
+}
 
   /*GUIA UTIL*/
+  
 
   .guiatituloPrincipal {
     display: flex;
