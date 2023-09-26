@@ -1,7 +1,7 @@
-let clave = prompt("Ingresa la contraseña: ");
+let clave = prompt("Bienvenido al apartado de Artesanias\nIngresa la contraseña: ");
 
 while (clave !== "ARTESANIAS") {
-    clave = prompt("Contraseña incorrecta. Ingresa la contraseña: ");
+    clave = prompt("Contraseña incorrecta. Ingresala nuevamente: ");
 }
 
 let nombre = prompt("¿Cuál es tu nombre?");
