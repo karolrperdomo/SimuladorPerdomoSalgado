@@ -1,10 +1,14 @@
-function comprarArtesanias() {
+function verificarClave() {
     let clave = prompt("Bienvenido al apartado de Artesanias\nIngresa la contraseña: ");
 
     while (clave !== "ARTESANIAS") {
         clave = prompt("Contraseña incorrecta. Ingrésala nuevamente: ");
     }
 
+    return true; // Retorna true si la contraseña es correcta
+}
+
+function procesarCompra() {
     let nombre = prompt("¿Cuál es tu nombre?");
     let edad = prompt("¿Cuál es tu edad?");
     let articulos = prompt("¿Cuántos artículos deseas comprar?");
@@ -22,12 +26,11 @@ function comprarArtesanias() {
     }
 
     alert(respuesta);
-
 }
 
-console.log("Gracias por visitar nuestra página");
+console.log("Gracias por visitar nuestra página")
 
-
-
-// Llama a la función para ejecutar el código
-comprarArtesanias();
+// Llama a las funciones
+if (verificarClave()) {
+    procesarCompra();
+}
