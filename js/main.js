@@ -1,11 +1,15 @@
+// Esta funcion verifica el acceso mediante la clave "ARTESANIAS"
+
 function verificarClave() {
     let clave = prompt("Bienvenido al apartado de Artesanias\nIngresa la contraseña: ");
+
+    //CICLO While, se debe cumplir que ingrese la contraseña correcta
 
     while (clave !== "ARTESANIAS") {
         clave = prompt("Contraseña incorrecta. Ingrésala nuevamente: ");
     }
 
-    return true; // Retorna true si la contraseña es correcta
+    return true; // Me retorna si es true
 }
 
 function procesarCompra() {
@@ -14,6 +18,8 @@ function procesarCompra() {
     let articulos = prompt("¿Cuántos artículos deseas comprar?");
 
     let respuesta = "";
+
+    //CONDICIONAL If, la cual me valida edad y cantidad de articulos
 
     if (edad < 18 && articulos < 2) {
         respuesta = "Solo mayores de edad pueden comprar y debes comprar mínimo 2 productos";
