@@ -975,7 +975,8 @@
 }
 
 /* Estilos para el encabezado de la tabla */
-.mi-tabla th {
+
+.mi_tabla th {
   background-color: #f2f2f2;
   border: 1px solid #dddddd;
   text-align: left;
@@ -983,13 +984,19 @@
 }
 
 /* Estilos para las celdas de datos de la tabla */
-.mi-tabla td {
+.mi_tabla td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
 /* Estilos para las filas impares */
-.mi-tabla tr:nth-child(odd) {
+.mi_tabla tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
+
+/* Estilos para las filas pares */
+.mi_tabla tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
