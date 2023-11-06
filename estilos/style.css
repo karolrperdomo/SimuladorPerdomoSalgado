@@ -969,4 +969,27 @@
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.artesaniasBuscar {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+/* Estilos para el encabezado de la tabla */
+.mi-tabla th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Estilos para las celdas de datos de la tabla */
+.mi-tabla td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Estilos para las filas impares */
+.mi-tabla tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
