@@ -89,4 +89,4 @@ document.addEventListener("DOMContentLoaded", function () {
     const newData = datosGuardados.filter((data) => JSON.stringify(data) !== JSON.stringify(formData));
     localStorage.setItem("datosGuardados", JSON.stringify(newData));
   }
-
+});
