@@ -997,6 +997,6 @@
 
 /* Estilos para las filas pares */
 .mi_tabla tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
 }
 
