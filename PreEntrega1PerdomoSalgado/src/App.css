@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  background-color: #8B4513; /* Fondo en tono marrón rústico */
+  color: #fff; /* Texto en blanco */
+  font-family: 'Cursive', cursive; /* Fuente manuscrita */
+  border-radius: 8px; /* Bordes redondeados */
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+.logo.react:hover {
+  transform: rotate(360deg); /* Rotación al pasar el mouse específicamente en el logo "react" */
+}
+
+.card {
+  padding: 2em;
+  background-color: #D2B48C; /* Fondo en un tono más claro */
+  border: 2px solid #8B4513; /* Borde en tono marrón rústico */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.read-the-docs {
+  color: #888;
+  font-style: italic; /* Estilo de fuente en cursiva */
+}
+
+
+/* BarraArtesanal.css */
+
+.barra-artesanal {
+  background-color: #f8f9fa;
+  padding: 15px 0; /* Ajusta el relleno según tus necesidades */
+}
+
+.marca-artesanal {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+.logo-artesanal {
+  width: 100px;
+  margin-right: 10px; /* Ajusta el margen según tus necesidades */
+}
+
+.manualidades {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.enlaces-artesanales {
+  margin-left: auto;
+}
+
+.widget-carrito-artesanal {
+  /* Estilos específicos para el widget de carrito si es necesario */
+}
